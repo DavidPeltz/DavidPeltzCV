@@ -8,6 +8,10 @@ h1 {
 
 img {
     width: 30%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .important {
