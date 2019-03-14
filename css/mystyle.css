@@ -1,0 +1,30 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: blue;
+}
+
+img {
+    width: 30%;
+}
+
+.important {
+    color: red;
+}
+
+.header {
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.picbar {
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+.content {
+    padding: 5px;
+    border: 1px solid green;
+}

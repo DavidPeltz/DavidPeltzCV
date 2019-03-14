@@ -1,13 +1,47 @@
 <!DOCTYPE html>     <!-- Tells the browser this is an HTML file -->
 <html>
-<head>              <!-- the metadata for the page-->
-    <title>David Peltz - Curriculum Vitae</title>
-</head>
-<body>              <!-- this is the part of the page that will be displayed to the visitor-->
-    <h1>Hello World!</h1>
-    <p>
-        <img src="images/newheadshot.jpg" width="40%" height="auto">
-    </p>
-</body>
+    <head>      <!-- the metadata for the page-->
+        <title>David Peltz - Curriculum Vitae</title>
+        <link rel="stylesheet" href="css/mystyle.css" />
+        <!-- the above link references the stylesheet for this html page -->
+    </head>
+
+    <body>      <!-- this is the part of the page that will be displayed to the visitor-->
+        
+        <div class="header">        <!-- the div collates the tags in the section and the class allows styles across tags of the same class-->
+
+            <h1>David Peltz - Curriculum Vitae</h1>
+            <p class="important">I am an IBM employee and I love the Southbank Technical Community (SBTC)</p>
+
+        </div>
+        
+        <div class="picbar">
+
+            <img src="images/newheadshot.jpg" />
+            <a href="https://www.google.co.uk">This is a link to the Google UK search page</a>
+
+        </div>
+
+        <div class="content">
+
+            <h2>Work Experience</h2>
+
+            <ul>
+                <li>2007 - Present: IBM/Silverpop</li>
+                <li>2004 - 2007: Lycos Europe/Jubii/Worlds Biggest Chat</li>
+            </ul>
+
+            <h2>Education</h2>
+
+            <ol>
+                <li>Uxbridge College</li>
+                <li>JFS</li>
+                <li>Claremont High</li>
+                <li>Uxendon Manor</li>
+            </ol>
+
+        </div>
+
+    </body>
 
 </html> 
